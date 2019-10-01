@@ -51,4 +51,19 @@ li:nth-child(odd) {
 /* pagination */
 
 .pagination button {
+  background-color: #001f3f;
+  border: none;
+  color: white;
+  padding: 8px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 8px;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+button:hover {
+  opacity: 0.8;
 }

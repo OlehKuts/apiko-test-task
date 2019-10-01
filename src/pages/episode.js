@@ -21,7 +21,7 @@ async function loadEpisode(tvId, seasonNumber, episodeNumber) {
 
 function renderEpisode(episode) {
   let html = `
-    <h2> Season ${episode.season_number} Episode: ${episode.episode_number}: ${
+    <h2> Season ${episode.season_number} Episode: ${episode.episode_number} ${
     episode.name
   } </h2>
     <img height="200px" src="https://image.tmdb.org/t/p/w500/${
