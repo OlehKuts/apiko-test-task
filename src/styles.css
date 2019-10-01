@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+}
+
+/* lists */
+
+ul {
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+}
+
+li {
+  cursor: pointer;
+  padding: 5px 2px;
+}
+
+li:hover {
+  opacity: 0.6;
+}
+
+li:nth-child(odd) {
+  background-color: #ddd;
+}
+
+/* navigation */
+
+#navigation {
+  margin-bottom: 10px;
+}
+
+.sort-button {
+  cursor: pointer;
+  color: blue;
+}
+
+.sort-button.active {
+  text-decoration: underline;
+}
+
+.back-button {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
+
+.back-button::before {
+  content: "← ";
+}
+
+/* pagination */
+
+.pagination button {
+}
